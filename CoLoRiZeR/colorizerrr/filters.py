@@ -18,7 +18,7 @@ class IFilter(ABC):
         self, orig_image: PilImage, filtered_image: PilImage, render_factor: int
     ) -> PilImage:
         pass
-
+ 
 
 class BaseFilter(IFilter):
     def __init__(self, learn: Learner, stats: tuple = imagenet_stats):
