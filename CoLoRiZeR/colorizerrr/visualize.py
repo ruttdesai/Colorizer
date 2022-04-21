@@ -47,7 +47,7 @@ def get_watermarked(pil_image: Image) -> Image:
         # Don't want this to crash everything, so let's just not watermark the image for now.
         return pil_image
 
-
+ 
 class ModelImageVisualizer:
     def __init__(self, filter: IFilter, results_dir: str = None):
         self.filter = filter
