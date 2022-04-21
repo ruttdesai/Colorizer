@@ -2,7 +2,7 @@ from fastai.core import *
 from fastai.torch_core import *
 from fastai.vision import *
 from fastai.vision.gan import AdaptiveLoss, accuracy_thresh_expand
-
+ 
 _conv_args = dict(leaky=0.2, norm_type=NormType.Spectral)
 
 
