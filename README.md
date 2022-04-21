@@ -2,7 +2,7 @@
 # Image and Video Colorizer
 ## The easiest way to colorize images and videos.
 
-DeOldify Algorithm is utilized.
+We have used DeOldify Algorithm.
 
 All the needed files have been hand-stiched and stored in this Repository.
 The colab links for image and video colorizer are seperate and are included below.
