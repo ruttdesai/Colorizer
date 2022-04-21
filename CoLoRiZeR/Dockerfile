@@ -1,5 +1,5 @@
 FROM nvcr.io/nvidia/pytorch:19.04-py3
-
+ 
 RUN apt-get -y update && apt-get install -y \
 	python3-pip \
 	software-properties-common \
