@@ -3,7 +3,7 @@ from fastai.core import *
 from fastai.torch_core import *
 from fastai.callbacks import hook_outputs
 import torchvision.models as models
-
+ 
 
 class FeatureLoss(nn.Module):
     def __init__(self, layer_wgts=[20, 70, 10]):
